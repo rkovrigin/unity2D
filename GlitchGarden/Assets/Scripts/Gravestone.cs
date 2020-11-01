@@ -8,7 +8,12 @@ public class Gravestone : MonoBehaviour
     {
         Attacker attacker = collision.GetComponent<Attacker>();
 
-        if (attacker && attacker.GetComponent<Fox>())
+        if (!attacker)
+        {
+            return;
+        }
+
+        if (attacker.GetComponent<Fox>())
         {
             GetComponent<Animator>().SetTrigger("IsJumpedOver");
         }
