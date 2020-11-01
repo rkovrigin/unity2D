@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: d1e0d5b41224745f498f0f0e2a0f3bff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1128813155181456575
+    second: Lizard Walk_0
+  - first:
+      213: 1520745819135918501
+    second: Lizard Walk_1
+  - first:
+      213: -4709280254044599183
+    second: Lizard Walk_2
+  - first:
+      213: 4590406444734685468
+    second: Lizard Walk_3
+  - first:
+      213: -5809404870691078281
+    second: Lizard Walk_4
+  - first:
+      213: -2436582601614883610
+    second: Lizard Walk_5
+  - first:
+      213: -1162995401479403774
+    second: Lizard Walk_6
+  - first:
+      213: -7865660583983276481
+    second: Lizard Walk_7
+  - first:
+      213: 8388405808098119969
+    second: Lizard Walk_8
+  - first:
+      213: -6411607694698082604
+    second: Lizard Walk_9
+  - first:
+      213: 3660547630272793605
+    second: Lizard Walk_10
+  - first:
+      213: 3588683558252167826
+    second: Lizard Walk_11
+  - first:
+      213: 5641522445841669798
+    second: Lizard Walk_12
+  - first:
+      213: -6065032518069352639
+    second: Lizard Walk_13
+  - first:
+      213: 5534433422041613636
+    second: Lizard Walk_14
+  - first:
+      213: 6716164222309021627
+    second: Lizard Walk_15
+  - first:
+      213: -3824168631608394120
+    second: Lizard Walk_16
+  - first:
+      213: -7786435186790574879
+    second: Lizard Walk_17
+  - first:
+      213: -909553170331148670
+    second: Lizard Walk_18
+  - first:
+      213: 5554224355861610921
+    second: Lizard Walk_19
+  - first:
+      213: 5810523661634054624
+    second: Lizard Walk_20
+  - first:
+      213: -619031781026801365
+    second: Lizard Walk_21
+  - first:
+      213: 5830346069733129718
+    second: Lizard Walk_22
+  - first:
+      213: 4903894805527268979
+    second: Lizard Walk_23
+  - first:
+      213: 7337696170834313806
+    second: Lizard Walk_24
+  - first:
+      213: -1625989568011868294
+    second: Lizard Walk_25
+  - first:
+      213: -2003753959930037839
+    second: Lizard Walk_26
+  - first:
+      213: 3557547684509634238
+    second: Lizard Walk_27
+  - first:
+      213: -8142277052404124341
+    second: Lizard Walk_28
+  - first:
+      213: -1543351621260962881
+    second: Lizard Walk_29
+  - first:
+      213: -2635266242088393622
+    second: Lizard Walk_30
+  - first:
+      213: -8424303556150436155
+    second: Lizard Walk_31
+  - first:
+      213: -5796889536375029993
+    second: Lizard Walk_32
+  - first:
+      213: -6290849071379279520
+    second: Lizard Walk_33
+  - first:
+      213: 7178427673869786831
+    second: Lizard Walk_34
+  - first:
+      213: 8996060663254471485
+    second: Lizard Walk_35
+  - first:
+      213: 1736875837576514438
+    second: Lizard Walk_36
+  - first:
+      213: -6231933595982565281
+    second: Lizard Walk_37
+  - first:
+      213: -7640371050588921997
+    second: Lizard Walk_38
+  - first:
+      213: -6877179194977028096
+    second: Lizard Walk_39
+  - first:
+      213: -4643392114276938109
+    second: Lizard Walk_40
+  - first:
+      213: -5197727370765212387
+    second: Lizard Walk_41
+  - first:
+      213: 7666717908715621380
+    second: Lizard Walk_42
+  - first:
+      213: 8863076840710242577
+    second: Lizard Walk_43
+  - first:
+      213: -1079433795564075347
+    second: Lizard Walk_44
+  - first:
+      213: -6978282455166637499
+    second: Lizard Walk_45
+  - first:
+      213: -4971691410720171384
+    second: Lizard Walk_46
+  - first:
+      213: 1580618320699013692
+    second: Lizard Walk_47
+  - first:
+      213: -2736339972934010307
+    second: Lizard Walk_48
+  - first:
+      213: -7111516270352553089
+    second: Lizard Walk_49
+  - first:
+      213: 8466337207359531915
+    second: Lizard Walk_50
+  - first:
+      213: 6639226974808896413
+    second: Lizard Walk_51
+  - first:
+      213: 1817348185845962106
+    second: Lizard Walk_52
+  - first:
+      213: -9009135243147161226
+    second: Lizard Walk_53
+  - first:
+      213: -7708619416757941792
+    second: Lizard Walk_54
+  - first:
+      213: 8658305913007573225
+    second: Lizard Walk_55
+  - first:
+      213: -2376799236305219649
+    second: Lizard Walk_56
+  - first:
+      213: -5055971078489655951
+    second: Lizard Walk_57
+  - first:
+      213: -7683855452763210890
+    second: Lizard Walk_58
+  - first:
+      213: -5049362300938989407
+    second: Lizard Walk_59
+  - first:
+      213: -6369119123156951518
+    second: Lizard Walk_60
+  - first:
+      213: 3055689436331898965
+    second: Lizard Walk_61
+  - first:
+      213: 8017322065110308306
+    second: Lizard Walk_62
+  - first:
+      213: -3298034107206894181
+    second: Lizard Walk_63
+  - first:
+      213: 1943914397737049400
+    second: Lizard Walk_64
+  - first:
+      213: -8121544920279307447
+    second: Lizard Walk_65
+  - first:
+      213: -8757171830510487514
+    second: Lizard Walk_66
+  - first:
+      213: -3676041669962778289
+    second: Lizard Walk_67
+  - first:
+      213: 9008748208856217500
+    second: Lizard Walk_68
+  - first:
+      213: 5384017391374720174
+    second: Lizard Walk_69
+  - first:
+      213: 2690535537079431724
+    second: Lizard Walk_70
+  - first:
+      213: 7821107362347743781
+    second: Lizard Walk_71
+  - first:
+      213: 7017025657991473
+    second: Lizard Walk_72
+  - first:
+      213: -520876629399081178
+    second: Lizard Walk_73
+  - first:
+      213: -1953475580722819009
+    second: Lizard Walk_74
+  - first:
+      213: -5430346552112195249
+    second: Lizard Walk_75
+  - first:
+      213: 8851757596328674798
+    second: Lizard Walk_76
+  - first:
+      213: -1166671022876903278
+    second: Lizard Walk_77
+  - first:
+      213: 5379248878423004898
+    second: Lizard Walk_0
+  - first:
+      213: -2151503980164083528
+    second: Lizard Walk_1
+  - first:
+      213: -8214283145056468583
+    second: Lizard Walk_2
+  - first:
+      213: -1717616276623038152
+    second: Lizard Walk_3
+  - first:
+      213: 9012798005752344927
+    second: Lizard Walk_4
+  - first:
+      213: -3175502962114000013
+    second: Lizard Walk_5
+  - first:
+      213: 7728907188789676279
+    second: Lizard Walk_6
+  - first:
+      213: -8914616076464205501
+    second: Lizard Walk_7
+  - first:
+      213: 7446132924028283742
+    second: Lizard Walk_8
+  - first:
+      213: -2715933953788489339
+    second: Lizard Walk_9
+  - first:
+      213: -8487039301012708599
+    second: Lizard Walk_10
+  - first:
+      213: -1182600462929349807
+    second: Lizard Walk_11
+  - first:
+      213: -4513544610707131499
+    second: Lizard Walk_12
+  - first:
+      213: 8212073067056734982
+    second: Lizard Walk_13
+  - first:
+      213: -3904515677476296196
+    second: Lizard Walk_14
+  - first:
+      213: -2593204425481592851
+    second: Lizard Walk_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lizard Walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e652dcba5ee6aa40800000000000000
+      internalID: 5379248878423004898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b01b7977825422e0800000000000000
+      internalID: -2151503980164083528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 930
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9914e6e2001010e80800000000000000
+      internalID: -8214283145056468583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8396473c81dc928e0800000000000000
+      internalID: -1717616276623038152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_4
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51b73dc804e31d70800000000000000
+      internalID: 9012798005752344927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 744
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b8ef761e85ee3d0800000000000000
+      internalID: -3175502962114000013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f885c18328924b60800000000000000
+      internalID: 7728907188789676279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3415d5df8ebe84480800000000000000
+      internalID: -8914616076464205501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_8
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 558
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5beb0f617af55760800000000000000
+      internalID: 7446132924028283742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581d30b65701f4ad0800000000000000
+      internalID: -2715933953788489339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903ab54d8baf73a80800000000000000
+      internalID: -8487039301012708599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_11
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 372
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15332e7052f869fe0800000000000000
+      internalID: -1182600462929349807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5933ce0271bac51c0800000000000000
+      internalID: -4513544610707131499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603287fe1f427f170800000000000000
+      internalID: 8212073067056734982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_14
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 186
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9e418adaf50d9c0800000000000000
+      internalID: -3904515677476296196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lizard Walk_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 251
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defd23d7056130cd0800000000000000
+      internalID: -2593204425481592851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

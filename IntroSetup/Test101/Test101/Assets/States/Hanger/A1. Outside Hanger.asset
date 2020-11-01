@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d2140ccc1a944a1a2f5da79543bdd7, type: 3}
+  m_Name: A1. Outside Hanger
+  m_EditorClassIdentifier: 
+  storyText: All my text that starting state contains.
+  nextStates:
+  - {fileID: 11400000, guid: 304ef6d45df6c4328a4c1385c778d37c, type: 2}
+  - {fileID: 11400000, guid: e51e45f6224eb4d9d9eda797375aa103, type: 2}
