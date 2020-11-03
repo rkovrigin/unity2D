@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e60359bd96c471bac99610cf0efc43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stars: 999
+  stars: 2000
 --- !u!1 &2017761088
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,7 +561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5115582776840129764, guid: 2a3dcc8991a6a467dad602f90cc9eafd, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.007843138
       objectReference: {fileID: 0}
     - target: {fileID: 5115582776840129764, guid: 2a3dcc8991a6a467dad602f90cc9eafd, type: 3}
       propertyPath: m_Color.b
@@ -569,7 +569,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5115582776840129764, guid: 2a3dcc8991a6a467dad602f90cc9eafd, type: 3}
       propertyPath: m_Color.a
-      value: 0.8156863
+      value: 0.7294118
       objectReference: {fileID: 0}
     - target: {fileID: 5115582776840129767, guid: 2a3dcc8991a6a467dad602f90cc9eafd, type: 3}
       propertyPath: m_AnchorMin.x

@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelController : MonoBehaviour
 {
     [SerializeField] GameObject winLabel;
+    [SerializeField] GameObject looseLabel;
     [SerializeField] float waitToLoadSeconds;
     int numberOfAttackers = 0;
     bool levelTimerFinished = false;
@@ -12,6 +13,7 @@ public class LevelController : MonoBehaviour
     private void Start()
     {
         winLabel.SetActive(false);
+        looseLabel.SetActive(false);
     }
 
 
@@ -23,7 +25,6 @@ public class LevelController : MonoBehaviour
     public void AttackerKilled()
     {
         numberOfAttackers--;
-
         if (numberOfAttackers <= 0 && levelTimerFinished)
         {
             StartCoroutine(HandleWinCondition());
@@ -37,6 +38,12 @@ public class LevelController : MonoBehaviour
         {
             attackerSpawner.StopSpawning();
         }
+    }
+
+    public void HandleLooseCondition()
+    {
+        looseLabel.SetActive(true);
+        Time.timeScale = 0;
     }
 
     IEnumerator HandleWinCondition()

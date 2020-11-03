@@ -24,7 +24,7 @@ public class Lives : MonoBehaviour
 
         if (lives <= 0)
         {
-            FindObjectOfType<LevelLoader>().LoadYouLoose();
+            FindObjectOfType<LevelController>().HandleLooseCondition();
         }
     }
 
