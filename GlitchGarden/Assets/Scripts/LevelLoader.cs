@@ -53,6 +53,11 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene("LooseScreen");
     }
 
+    public void LoadOptions()
+    {
+        SceneManager.LoadScene("Options");
+    }
+
     public void QuitGame()
     {
         QuitGame();
