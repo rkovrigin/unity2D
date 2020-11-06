@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DefenderButton : MonoBehaviour
 {
@@ -10,6 +12,16 @@ public class DefenderButton : MonoBehaviour
     private void Start()
     {
         coreGameArea = FindObjectOfType<CoreGameArea>();
+        LabelNumberWithCost();
+    }
+
+    private void LabelNumberWithCost()
+    {
+        Text textCost = GetComponentInChildren<Text>();
+        if (textCost)
+        {
+            textCost.text = defenderPrefab.GetStarCost().ToString();
+        }
     }
 
     private void OnMouseDown()

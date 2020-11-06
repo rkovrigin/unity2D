@@ -4,28 +4,30 @@ using UnityEngine;
 
 public class Shooters : MonoBehaviour
 {
-    [SerializeField] GameObject projectile, gun;
+    [SerializeField] GameObject projectile, gun, projectileParent;
     AttackerSpawner myLaneSpawner;
     Animator animator;
+    const string PROJECTILE_PARENT = "Projectile";
 
     private void Start()
     {
         SetLaneSpawner();
         animator = GetComponent<Animator>();
+        projectileParent = GameObject.Find(PROJECTILE_PARENT);
+        if (!projectileParent)
+        {
+            projectileParent = new GameObject();
+        }
     }
 
     private void Update()
     {
         if (IsAttackerOnLane())
         {
-            Debug.Log("Shoot pew pew");
-            //TODO Change animation state to shoot
             animator.SetBool("IsAttacking", true);
         }
         else
         {
-            Debug.Log("Sit and wait");
-            //TODO Change animation state to idle
             animator.SetBool("IsAttacking", false);
         }
     }
@@ -60,7 +62,8 @@ public class Shooters : MonoBehaviour
 
     public void Fire()
     {
-        Instantiate(projectile, gun.transform.position, transform.rotation);
+        GameObject prj = Instantiate(projectile, gun.transform.position, transform.rotation) as GameObject;
+        prj.transform.parent = projectileParent.transform;
         return;
     }
 }
