@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Ground
+  - Ladder
   - 
   - 
   - 
@@ -43,6 +44,12 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 2721330545
+    locked: 0
+  - name: Ladder
+    uniqueID: 2625241937
+    locked: 0
+  - name: Player&Enemy
+    uniqueID: 52392959
     locked: 0
   - name: Foreground
     uniqueID: 2910416531
