@@ -17,7 +17,9 @@ public class Player : MonoBehaviour
     //Cached
     Animator animator;
     Rigidbody2D myRigidBody;
-    Collider2D collider2D;
+    CapsuleCollider2D bodyCollider2D;
+    BoxCollider2D feetCollider2D;
+    float gravityScale;
 
     //Consts
     const string STATE_RUN = "Running";
@@ -28,17 +30,19 @@ public class Player : MonoBehaviour
     {
         myRigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        collider2D = GetComponent<Collider2D>();
+        bodyCollider2D = GetComponent<CapsuleCollider2D>();
+        feetCollider2D = GetComponent<BoxCollider2D>();
+
+        gravityScale = myRigidBody.gravityScale;
     }
 
     // Update is called once per frame
     void Update()
     {
         Run();
-        FlipSprite();
-        SwitchAnimation();
-        Jump();
         ClimbLadder();
+        Jump();
+        FlipSprite();
     }
 
     private void Run()
@@ -51,12 +55,19 @@ public class Player : MonoBehaviour
                 myRigidBody.velocity.y);
             myRigidBody.velocity = playerVelocity;
         }
+        SwitchAnimation();
     }
 
     private void ClimbLadder()
     {
-        if (!collider2D.IsTouchingLayers(LayerMask.GetMask("Ladder"))) { return; }
+        if (!bodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Ladder")))
+        {
+            animator.SetBool(STATE_CLIMB, false);
+            myRigidBody.gravityScale = gravityScale;
+            return;
+        }
 
+        myRigidBody.gravityScale = 0;
         float controlThrow = CrossPlatformInputManager.GetAxis("Vertical"); // from -1 to +1
         Vector2 climbVelocity = new Vector2(
             myRigidBody.velocity.x,
@@ -83,7 +94,8 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
-        if (!collider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
+        if (!bodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
+        if (!feetCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
 
         if (CrossPlatformInputManager.GetButtonDown("Jump"))
         {
