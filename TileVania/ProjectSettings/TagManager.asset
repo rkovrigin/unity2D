@@ -19,9 +19,9 @@ TagManager:
   - Player
   - Background
   - Enemy
-  - 
-  - 
-  - 
+  - Hazzards
+  - Interractables
+  - Coin
   - 
   - 
   - 
@@ -51,9 +51,18 @@ TagManager:
   - name: Enemy
     uniqueID: 1278135317
     locked: 0
+  - name: Hazzards
+    uniqueID: 830859911
+    locked: 0
+  - name: Interractables
+    uniqueID: 2701228999
+    locked: 0
   - name: Player
     uniqueID: 52392959
     locked: 0
   - name: Foreground
     uniqueID: 2910416531
+    locked: 0
+  - name: Coin
+    uniqueID: 1551652855
     locked: 0

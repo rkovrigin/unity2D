@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Player : MonoBehaviour
     [SerializeField] float runSpeed = 5f;
     [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 5f;
+    [SerializeField] Vector2 deathKick = new Vector2(25f, 25f);
+    [SerializeField] GameSession gameSession;
 
     //State
     bool isAlive = true;
@@ -24,6 +27,7 @@ public class Player : MonoBehaviour
     //Consts
     const string STATE_RUN = "Running";
     const string STATE_CLIMB = "Climbing";
+    const string STATE_DIE = "Die";
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +36,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         bodyCollider2D = GetComponent<CapsuleCollider2D>();
         feetCollider2D = GetComponent<BoxCollider2D>();
+        gameSession = FindObjectOfType<GameSession>();
 
         gravityScale = myRigidBody.gravityScale;
     }
@@ -39,10 +44,28 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isAlive) { return; }
         Run();
         ClimbLadder();
         Jump();
         FlipSprite();
+        Die();
+    }
+
+    private void Die()
+    {
+        bodyCollider2D = GetComponent<CapsuleCollider2D>();
+        if (bodyCollider2D.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazzards")))
+        {
+            gameSession.ProcessPlayerDeath();
+            //animator.SetBool(STATE_DIE, true);
+            //animator.SetBool(STATE_RUN, false);
+            //animator.SetBool(STATE_CLIMB, false);
+            //isAlive = false;
+            //myRigidBody.velocity = deathKick;
+
+            //SceneManager.LoadScene("Game Over Menu");
+        }
     }
 
     private void Run()
